@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    background-color: #ABD904;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+canvas{
+    background-color: #97BF04;
+}
+
+h2{
+    display: flex;
+    gap: 5px;
+    font-size: 1.5em;
+}
+
+dialog{
+    height: 100%;
+    width: 100vw;
+    background-color: #000000c6;
+}
+
+img{
+    height: 30px;
+}
+
+.mdi-snake, .score, h2{
+    color: #3E5902;
+}
+
+.menu{
+    
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 6px;
+    font-size: 0.5em;
+    cursor: pointer;
+}
